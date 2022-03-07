@@ -16,7 +16,7 @@ class StartScene: SKScene
         
         // add ocean to the scene
         ocean = Ocean() // allocate memory
-        ocean?.position = CGPoint(x: 0, y: 773)
+        ocean?.position = CGPoint(x: 773, y: 0)
         addChild(ocean!) // add the ocean to the scene
     }
     
